@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - FocusTrack</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<div class="login-container">
+    <a href="index.html" class="back-btn">⟵ Regresar al Inicio</a>
+ 
+    <h2>Crear Cuenta</h2>
+
+    <form id="registerForm">
+        <label>Nombre</label>
+        <input type="text" id="regName" required>
+
+        <label>Correo electrónico</label>
+        <input type="email" id="regEmail" required>
+
+        <label>Contraseña</label>
+        <input type="password" id="regPassword" required>
+
+        <button type="submit">Registrarse</button>
+
+        <p class="link">
+            ¿Ya tienes cuenta? <a href="login.html">Iniciar sesión</a>
+        </p>
+    </form>
+
+    <p id="registerError" class="error"></p>
+</div>
+
+<script src="js/auth.js"></script>
+
+</body>
+</html>
